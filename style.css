@@ -12,11 +12,10 @@
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   justify-self: center;
-  /* border: solid 1px black; */
+  border: solid 1px black;
 }
 
 .grid-element {
-  height: 25px;
   border: solid 1px black;
 
 }
@@ -24,7 +23,9 @@
 
 .header {
   grid-column: 1 / -1;
+  justify-self: center;
 }
+
 
 .black-bg {
   background-color: #000;
@@ -39,3 +40,4 @@
   margin-top: 5vh;
   border-radius: 3px;
 }
+
